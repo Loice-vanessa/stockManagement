@@ -1,5 +1,5 @@
 import { Navigate, Outlet } from "react-router-dom";
-import DashLayout from "../componets/Dashlayout";
+import DashLayout from "../components/Dashlayout";
 
 const DashRoutes = () => {
   let auth = { token: true };
